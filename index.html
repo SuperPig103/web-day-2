@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Profile</title>
+    <style>
+      body {
+        background-image: url("https://static.wixstatic.com/media/be4b4e_90e98c15108d45f0afde8780e4bc9857~mv2.webp/v1/fill/w_1920,h_1059,fp_0.50_0.50,q_90,enc_auto/spbgnogrid2.webp");
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        color: #f8fafc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      .profile-card {
+        
+        background-color: #071c3e;
+        border: 5px solid#7f7a67;
+        border-radius: 16px;
+        width: 340px;
+        padding: 32px 24px;
+        text-align: center;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+      }
+
+      /* Avatar Box with Gradient Border */
+      .avatar {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #D80449, #FED22B);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #0f172a;
+        margin: 0 auto 20px auto;
+      }
+
+      /* Typography */
+      .typography {
+        font-size: 1.25rem;
+        margin: 0 0 6px 0;
+        color: black;
+        -webkit-text-stroke: 1px #dfd9db;
+        background: linear-gradient(90deg,#D80449, #FED22B);
+        border-radius: 20px;
+      }
+
+      .title {
+        color: #D80449;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .bio {
+        color: #94a3b8;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 24px;
+      }
+
+      /* Skill Tags */
+      .skills {
+        display: flex;
+        justify-content: center;
+        gap: 14px;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+      }
+
+      .tag {
+        background-color: #334155;
+        color: #e2e8f0;
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+      }
+
+      /* Action Button */
+      .btn-connect {
+        display: block;
+        margin: 20px;
+        background-color: #e93c76;
+        color: #0f172a;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 12px 0;
+        border-radius: 8px;
+        transition:
+          background-color 0.2s ease,
+          transform 0.1s ease;
+      }
+
+      .btn-connect:hover {
+        background-color: #d11956;
+        color: #ffffff;
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="avatar">ML</div>
+    
+      <div class="typography">
+        <h1>Matthew LeCompte</h1>
+        <h2>Super_Pig</h2>
+      </div>
+      <div class="title"> Game Audio Composer</div>
+      <p class="bio"></p>
+
+      <div class="skills">
+        <span class="tag">Composer</span>
+        <span class="tag">SFX Designer</span>
+        <span class="tag">Producer</span>
+        <span class="tag">Transcriber</span>
+      </div>
+
+      <a href="#" class="btn-connect">About Me</a>
+      <a href="mywork.html" class="btn-connect">My Work</a>
+    </div>
+  </body>
+</html>
